@@ -1,18 +1,21 @@
 //backend logic
 
-var house1 = 0;
-var house2 = 0;
-var house3 = 0;
-var house4 = 0;
+var date1 = 0;
+var date2 = 0;
+var date3 = 0;
+var date4 = 0;
 
 //userinterface logic
 
 $(document).ready(function() {
   $("#quiz").submit(function(event) {
 
-    var q1 = $("#weapon").val();
-    var q2 = $("#animal").val();
-    var q3 = $("#incest").val();
+    var q1 = $("#tomato").val();
+    var q2 = $("#banana").val();
+    var q3 = $("#cucumber").val();
+		var q4 = $("#apple").val();
+		var q5 = $("#pepper").val();
+		var q6 = $("#grape").val();
 
 
 
