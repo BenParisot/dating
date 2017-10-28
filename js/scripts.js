@@ -59,7 +59,7 @@ $(document).ready(function() {
       $("#kanye").fadeTo(2500, 1);
     } else if (date4 > date1 && date4 > date3 && date4 > date2) {
       $("#glover").fadeTo(2500, 1);
-    } else if (date1 === date2 || date1 === date3 || date1 === date4) {
+    } else {
 			$("#none").fadeTo(2500, 1);
 		}
 
@@ -72,15 +72,18 @@ $(document).ready(function() {
   });
 
 	$("#retake-wes").click(function() {
-		window.location.reload();
+		location.reload();
 	});
 	$("#retake-meloni").click(function() {
-		window.location.reload();
+		location.reload();
 	});
 	$("#retake-west").click(function() {
-		window.location.reload();
+		location.reload();
 	});
 	$("#retake-glover").click(function() {
-		window.location.reload();
+		location.reload();
+	});
+	$("#retake-none").click(function() {
+		location.reload();
 	});
 });

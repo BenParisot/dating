@@ -16,47 +16,57 @@ body {
 	font-size: 36px;
 }
 
+.intro {
+	margin-bottom: 25px;
+}
+
+.btn {
+	background-color: #defffc;
+}
+
+.btn:hover {
+	background-color: #ed6a5a;
+}
+
+img {
+	width: 100%;
+}
+
 p {
 	font-size: 18px;
 }
 
-#meloni {
+h3 {
+	font-family: 'Schoolbell', cursive;
+	font-size: 36px;
+}
+
+#meloni, #wes, #kanye, #glover, #none {
 	display: none;
 	margin-top: 250px;
-	background-color: rgba(295, 38, 53, .19);
 	padding: 15px;
 	border-radius: 25px;
+	text-align: right;
+
+}
+
+#meloni {
+	background-color: #d0b8ac;
 }
 
 #wes {
-	display: none;
-	margin-top: 250px;
-	background-color: rgba(295, 38, 53, .19);
-	padding: 15px;
-	border-radius: 25px;
+	background-color: #fcbcb8;
 	}
 
 #kanye {
-	display: none;
-	margin-top: 250px;
-	background-color: rgba(295, 38, 53, .19);
-	padding: 15px;
-	border-radius: 25px;
+	background-color: #ebf5df;
 }
 
 #glover {
-	display: none;
-	margin-top: 250px;
-	background-color: rgba(22, 100, 50, .3);
-	padding: 15px;
-	border-radius: 25px;
+	background-color: #a7e8bd;
 }
 
-
 #none {
-	display: none;
-	margin-top: 250px;
 	background-color: rgba(22, 100, 50, .3);
-	padding: 15px;
-	border-radius: 25px;
+	text-align: center;
 }
