@@ -1,4 +1,62 @@
-#meloni, #wes, #kanye, #glover {
+body {
+	background-color: #f0f279;
+}
+
+.jumbotron {
+	background-color: inherit;
+	font-family: 'Schoolbell', cursive;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	font-size: 78px;
+}
+
+.jumbotron h2 {
+	font-size: 36px;
+}
+
+p {
+	font-size: 18px;
+}
+
+#meloni {
 	display: none;
 	margin-top: 250px;
+	background-color: rgba(295, 38, 53, .19);
+	padding: 15px;
+	border-radius: 25px;
+}
+
+#wes {
+	display: none;
+	margin-top: 250px;
+	background-color: rgba(295, 38, 53, .19);
+	padding: 15px;
+	border-radius: 25px;
+	}
+
+#kanye {
+	display: none;
+	margin-top: 250px;
+	background-color: rgba(295, 38, 53, .19);
+	padding: 15px;
+	border-radius: 25px;
+}
+
+#glover {
+	display: none;
+	margin-top: 250px;
+	background-color: rgba(22, 100, 50, .3);
+	padding: 15px;
+	border-radius: 25px;
+}
+
+
+#none {
+	display: none;
+	margin-top: 250px;
+	background-color: rgba(22, 100, 50, .3);
+	padding: 15px;
+	border-radius: 25px;
 }
