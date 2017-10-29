@@ -14,6 +14,10 @@ This quiz was created to satisfy the Week 8 Javascript and JQuery Independent Pr
 * Open index.html in your favorite web browser
 * Enjoy!
 
+## Viewing Project On Github Pages
+
+Visit https://benparisot.github.io/dating/ to view this project on Github Pages.
+
 ## Support and contact details
 
 Questions, comments, or concerns about my code? Contact me at me@benparisot.com.
