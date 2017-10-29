@@ -10,6 +10,7 @@ var date4 = 0;
 $(document).ready(function() {
   $("#quiz").submit(function(event) {
 
+		var inputName = $("input#name").val();
     var q1 = $("#tomato").val();
     var q2 = $("#banana").val();
     var q3 = $("#cucumber").val();
@@ -66,6 +67,8 @@ $(document).ready(function() {
 		$("#upper").slideUp(1200, function() {
 
 		});
+
+		$('.name').text(inputName);
 
 
     event.preventDefault();
